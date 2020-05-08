@@ -1,0 +1,21 @@
+@import './vendor/animate.css';
+@import './vendor/material-icons.css';
+@import './vendor/OpenSans.css';
+@import './vendor/toastify.css';
+
+@import './modules/normalize.css';
+@import './modules/base.css';
+@import './modules/globals.css';
+@import './modules/animations.css';
+@import './modules/progressbar.css';
+
+@import './modules/sidebar.css';
+@import './modules/middle-section.css';
+@import './modules/tabs.css';
+@import './modules/stackedTabs.css';
+@import './modules/settings.css';
+@import './modules/main-search.css';
+@import './modules/download-tab.css';
+@import './modules/track-preview.css';
+@import './modules/tracklist-tab.css';
+@import './modules/home-tab.css';

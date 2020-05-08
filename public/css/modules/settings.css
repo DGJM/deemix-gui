@@ -1,0 +1,71 @@
+#settings_heading {
+	font-size: 2.5rem;
+	margin-bottom: 35px;
+}
+
+#settings_picture {
+	width: 125px;
+	height: 125px;
+}
+
+#logged_in_info {
+	height: 250px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+#logged_in_info.hide {
+	display: none;
+}
+
+#log_info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#open_login_prompt {
+	margin: 8px 0px;
+}
+
+#login_input_arl {
+	margin-bottom: 0px;
+}
+
+#settings_btn_copyArl {
+	min-width: 24px;
+	width: 48px;
+	margin: 0px 0px 0px 8px;
+	padding: 0px 4px;
+}
+
+#settings_btn_copyArl i {
+	padding: 6px 0px;
+}
+
+.settings_group {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border-top: 1px solid #8f8f8f; /* Need less opacity */
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.settings_group > * {
+	margin-bottom: 15px;
+}
+
+.input_group {
+	margin-bottom: 25px;
+}
+
+.input_group .input_group_text {
+	margin-bottom: 7px;
+}
+
+.with_checkbox + .input_group {
+	margin-top: 10px;
+}

@@ -1,0 +1,100 @@
+/* Middle section */
+#middle_section {
+	background-color: var(--main-background);
+	width: 100%;
+	height: 100%;
+	min-width: 10px;
+}
+
+/* Center section */
+#search > #searchbar {
+	width: calc(100% - 32px);
+	height: 32px;
+	padding: 0px 8px;
+	margin: 8px;
+	border: 0px;
+	border-radius: 6px;
+	background-color: var(--secondary-background);
+	color: var(--primary-text);
+}
+
+#content {
+	background-color: var(--main-background);
+	width: calc(100% - 10px);
+	height: calc(100% - 48px);
+	overflow-y: scroll;
+	overflow-x: hidden;
+	padding-left: 10px;
+}
+
+#content::-webkit-scrollbar {
+	width: 10px;
+}
+
+#content::-webkit-scrollbar-track {
+	background: var(--main-background);
+}
+
+#content::-webkit-scrollbar-thumb {
+	background: var(--main-scroll);
+	border-radius: 4px;
+	width: 6px;
+	padding: 0px 2px;
+}
+
+#container {
+	margin: 0 auto;
+	max-width: 1280px;
+	width: 90%;
+}
+
+/* The Modal (background) */
+.smallmodal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1250; /* Sit on top */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0, 0, 0); /* Fallback color */
+	background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+	animation-duration: 0.3s;
+}
+
+/* Modal Content */
+.smallmodal-content {
+	background-color: none;
+	margin: auto;
+	width: 30%;
+	align-items: center;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.smallmodal-content button {
+	width: 100%;
+	margin-bottom: 8px;
+}
+
+@media only screen and (min-width: 601px) {
+	#container,
+	.smallmodal-content {
+		width: 85%;
+	}
+}
+
+@media only screen and (min-width: 993px) {
+	#container,
+	.smallmodal-content {
+		width: 70%;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	#container,
+	.smallmodal-content {
+		width: 100%;
+	}
+}

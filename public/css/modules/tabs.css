@@ -1,0 +1,14 @@
+/* Tabs */
+.search_tabcontent,
+.main_tabcontent,
+.favorites_tabcontent {
+	display: none;
+}
+
+.tab button{
+	background-color: var(--primary-background);
+}
+
+.tab button.active{
+	background-color: var(--accent-color);
+}
